@@ -1,0 +1,6 @@
+@mixin color-invertido($colorInvertido, $colorLetra)
+ {
+    background-color: $colorInvertido;
+    color: $colorLetra;
+  }
+

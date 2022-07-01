@@ -1,0 +1,46 @@
+body {
+    background-image: url(../img/73e27cfb1298a7f5f8a96e50219fece4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+main {
+    div {
+        h1 {
+            color: black;
+            text-align: center;
+        }
+    }
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    align-items: center;
+}
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+);
+
+.test a:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+
+@import './secciones/index';
+@import './secciones/contacto.scss'

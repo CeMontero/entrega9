@@ -1,0 +1,128 @@
+body {
+  background-image: url(../img/73e27cfb1298a7f5f8a96e50219fece4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+}
+
+main div h1 {
+  color: black;
+  text-align: center;
+}
+
+.nav {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: var(--bs-link-color);
+  --bs-nav-link-hover-color: var(--bs-link-hover-color);
+  --bs-nav-link-disabled-color: #6c757d;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
+}
+
+main div h6 {
+  text-align: center;
+  text-justify: inter-word;
+  font-size: medium;
+}
+
+.test a:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+nav {
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  background-color: black;
+}
+
+
+
+.test a:hover {
+  background-color: white;
+  text-decoration: none;
+}
+
+img.btn-whatsapp {
+  display: block !important;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 100px !important;
+}
+
+img.btn-whatsapp:hover {
+  border-radius: 100px !important;
+  -webkit-box-shadow: 0px 0px 15px 0px #075e54;
+  -moz-box-shadow: 0px 0px 15px 0px #075e54;
+  box-shadow: 0px 0px 15px 0px #075e54;
+  transition-duration: 1s;
+}
+
+.text3 {
+  font-size: 100px;
+
+}
+
+.pie {
+  position: fixed;
+  bottom: 20px;
+  text-align: left;
+  justify-items: center;
+}
+
+.pie2 {
+  justify-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+
+}
+
+.formulario{
+margin: 30px;  
+background-color: black;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+}
+
+
+/* Galeria de fotos */
+
+.imggaleria {
+  border-width: 4px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.image-block img {
+  height: 350px;
+  width: 250px;
+  margin: 0px 0;
+  transition: all 1s;
+}
+
+.image-block img:hover {
+  opacity: 70%;
+  background-color: bisque;
+}
+
+.image-block{
+  display: flex;
+  justify-content: space-around;
+}
+

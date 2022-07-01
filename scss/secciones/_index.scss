@@ -1,0 +1,50 @@
+nav {
+    ul {
+        display: flex;
+        background-color: black;
+    }
+
+    align-items: center;
+}
+
+.test a:hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+.parrafo {
+    border-radius: 15px;
+    margin: 1rem;
+    width: $ancho;
+    padding: 2rem;
+    text-align: center;
+    text-justify: inter-word;
+    font-size: medium;
+
+    p {
+        @extend %estiloParrafo;
+    }
+}
+
+img.btn-whatsapp {
+    display: block !important;
+    position: fixed;
+    z-index: 9999999;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 100px !important;
+}
+
+img.btn-whatsapp:hover {
+    border-radius: 100px !important;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+    box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
+    transition-duration: 1s;
+}
+
+.text3 {
+    font-size: 100px;
+}
+

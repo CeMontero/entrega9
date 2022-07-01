@@ -1,0 +1,11 @@
+.pie2{
+    justify-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    
+:link{
+    @include color-invertido (black, white)
+}
+  }
